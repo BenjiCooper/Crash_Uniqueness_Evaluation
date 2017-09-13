@@ -37,7 +37,7 @@ int bar(int a) {
 }
 
 
-/* Run some stuff, and then crash regardless of call to foo and bar */
+/* Run some stuff, and then crash regardless of calls to foo and bar */
 int main(int argc, char **argv) {
 	char c;
 	int n, x;
