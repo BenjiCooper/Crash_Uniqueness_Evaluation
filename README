@@ -2,7 +2,7 @@ A set of C programs meant to evaluate AFL-CMIN and Stack Hashing as crash unific
 Once AFL-CMIN and Stack Hashing have been evaluated against these programs, and some others, we will evaluate a new method, currently being worked on, against this same suite.
 
 INSTALLATION
-to install this code run:
+to download and build these programs run:
 - git clone https://github.com/BenjiCooper/Crash_Uniqueness_Evaluation.git
 - cd Crash_Uniqueness_Evaluation
 - make
