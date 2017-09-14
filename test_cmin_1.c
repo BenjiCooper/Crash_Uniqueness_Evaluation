@@ -52,12 +52,12 @@ int main(int argc, char **argv) {
 
 	x = foo(n);
 	x = bar(x);
-	printf("%d\n", x);
+	printf("%d", x);
 
 	if (n > 4) {
 		crash();
 	}
-	printf("success!\n");
+	printf("\nsuccess!\n");
 
 	return 0;
 }
