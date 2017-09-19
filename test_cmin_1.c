@@ -7,14 +7,8 @@
 #include <string.h>
 
 /* Use after free. Should segfault */
-int crash() {
-	char *str1 = malloc(6*sizeof(char));
-	char *str2;
-	strcpy(str1, "hello");
-	free(str1);
-	strcpy(str2, str1);
-	printf("%s\n", str2);
-	return 0;
+void crash() {
+        printf("%d\n", *((int *)0));
 }
 
 int foo(int a) {
