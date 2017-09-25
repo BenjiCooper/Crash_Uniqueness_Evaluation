@@ -10,13 +10,11 @@
 #include <unistd.h>
 
 void crash1() {
-	int *x = NULL;
-	printf("%d\n", *x);
+	printf("%d\n", *((volatile int *)0));
 }
 
 void crash2() {
-	char *c = NULL;
-	printf("%c\n", *c);
+	printf("%d\n", *((volatile int *)7));
 }
 
 int foo(int x) {
