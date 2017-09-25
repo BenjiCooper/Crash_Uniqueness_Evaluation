@@ -14,7 +14,7 @@ void crash1() {
 }
 
 void crash2() {
-	printf("%d\n", *((volatile int *)7));
+	printf("%d\n", *((volatile int *)1));
 }
 
 int foo(int x) {
