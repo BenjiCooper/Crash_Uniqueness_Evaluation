@@ -38,7 +38,7 @@ int main(int argc, char **argv) {
   	if (fd == -1)
     	return 1;
 
-    int r = read(fd, &c, 1);
+	int r = read(fd, &c, 1);
   	close(fd);
 
   	if (r!=1)
