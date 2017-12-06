@@ -26,6 +26,8 @@ int main(int argc, char **args)
     return 1;
 
   n = c-'0';
+  n = foo(n);
+  n = bar(n);
   if (n%3 == 0) {
     printf("1\n");
     crash();
